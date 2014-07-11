@@ -1,0 +1,11 @@
+nav {
+    display: none;
+    }
+
+div#container {
+    width: 10em;
+    }
+
+nav ul li {
+    font-size: 0.7em;
+    }

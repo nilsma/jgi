@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: #000000;
+    background-image: url("../media/background-blue.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+nav {
+    float: left;
+    position: absolute;
+      left: 2em;
+      top: -2.3em;
+//    z-index: -1;
+    }
+
+nav ul {
+    float: left;
+    list-style: none;
+    }
+
+nav ul li {
+    background-color: #ffffff;
+    border: 1px 1px 0 1px solid #000000;
+    float: left;
+    font-family: sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    }
+
+nav ul a {
+    color: #666666;
+    display: block;
+    letter-spacing: 1px;
+    padding: 0.3em 0.6em 0.3em 0.6em;
+    text-decoration: none;
+    }
+
+nav li.active a {
+    color: #000000;
+    }
+
+nav li.active {
+    text-decoration: underline;
+    }
+
+nav li#cv,
+nav li#reference,
+nav li#profile {
+    margin-left: 0.3em;
+    }
+
+nav li:hover {
+    background-color: #a8b4ba;
+    }
+
+nav li:hover a {
+    color: #000000;
+    }
+
+nav li:active a {
+    color: #ffffff;
+    outline: none;
+    }
+
+body.profile header,
+body.cv header {
+    float: none;
+    margin: 0.7em 1.5em 0.3em; 2em;
+    padding-left: 2.5em;
+    }
+
+header h1 {
+    font-family: sans-serif;
+    font-family: Georgia, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.79em;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #555555;
+    text-transform: uppercase;
+    }
+
+body.profile header h1 a,
+body.cv header h1 a {
+    border-bottom: 1px solid #778691;
+    }
+
+body.profile header h2,
+body.cv header h2 {
+    margin-top: 0.5em;
+    margin-left: 0.75em;
+    }
+
+body.home header {
+    letter-spacing: 2px;
+    margin: 8em 0.5em 0.3em 5em;
+    width: 40.5em;
+    width: 35em;
+    }
+
+body.home header h1 {
+    border-bottom: 2px solid #778691;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    }
+
+body.home header h1 a,
+body.profile header h1 a,
+body.cv header h1 a {
+    color: #333333;
+    }
+
+body.home header h2 {
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    margin: 0.5em 0 0 0em;
+    text-align: center;
+    }
+
+body.home footer {
+    display: none;
+    }
+
+header h2 {
+    color: #444444;
+    font-size: 0.8em;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0 0 0 1em;
+    text-transform: uppercase;
+    }
+
+header h3 {
+    background-color: #694645;
+    border-radius: 0.3em;
+    box-shadow: 3px 2px 4px #000000;
+    font-family: sans-serif;
+    position: absolute;
+      top: 1.6em;
+      right: 2.5em;
+    }
+
+header h3:hover {
+    background-color: #eeefff;
+    }
+
+header h3 a {
+    border-radius: 0.3em;
+    color: #eeefff;
+    display: block;
+    padding: 0.5em 1em 0.5em 1em;
+    text-decoration: none;
+    }
+
+header h3 a:visited {
+    color: #eeefff;
+    text-decoration: none;
+    }
+
+header h3 a:active {
+    border-radius: 0.3em;
+    color: #eeefff;
+    outline: none;
+    }
+
+header h3:hover a {
+    background-color: #eeefff;
+    color: #694645;
+    }
+
+
+header h3 a:hover {
+    background-color: #eeefff;
+    color: #694645;
+    }
+
+header h1 a,
+header h1 a:visited {
+    color: #000000;
+    text-decoration: none;
+    }
+
+div#container {
+    background-color: #ffffff;
+    border: 4px #000 double;
+    box-shadow: 0.5em 0.8em 1.2em #000000;
+    float: left;
+    height: 29em;
+    padding: 1em;
+    position: relative;
+      left: 13em;
+      top: 4em;
+    width: 52em;
+    width: 45em;
+//    z-index: 10;
+    }
+
+body.home div#left-container {
+    letter-spacing: 3px;
+    font-family: Habibi;
+    position: absolute;
+      left: 0;
+      bottom: 0;
+    width: 100%;
+    }
+
+body.home div#right-container {
+    display: none;
+    }
+
+body.home section#left-footer {
+    float: left;
+    margin-left: 3em;
+    margin-bottom: 2em;
+    }
+
+body.home section#right-footer {
+    float: right;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    }
+
+p.adress-label {
+    margin-bottom: 0.5em;
+    }
+
+p.adress-label a {
+    color: #486a91;
+    }
+
+body.profile div#left-container {
+    float: left;
+    margin: 0.5em 0 0 0;
+    padding: 0.1em;
+    width: 27em;
+    }
+
+div#right-container {
+    float: left;
+    margin: -2.5em 0 0 1em;
+    position: relative;
+    width: 15em;
+    }
+
+section#text p {
+    font-family: serif;
+    font-family: "Sanchez", serif;
+    font-size: 0.95em;
+    line-height: 1.3em;
+    margin: 1em;
+    }
+
+section#visual img {
+    height: 16.4em;
+    height: 18em;
+    margin: 4em 0 0 -0.5em;
+    }
+
+section#visual p {
+    line-height: 1.3em;
+    margin: 0.5em 0 0.5em 0;
+    }
+
+footer {
+    border: 1px solid black;
+    margin: 0 0 0 -0.5em;
+    padding: 0.2em 0 0.2em 0;
+    text-align: center;
+    width: 16.5em;
+    }
+
+footer span {
+    display: none;
+    }
+
+footer a  {
+    color: #486a91;
+    }
+
+body.cv div#container {
+    height: 32em;
+    }
+
+body.cv div#left-container {
+    height: 21.5em;
+    width: 45em;
+    }
+
+body.reference div#left-container {
+    height: 21.5em;
+    overflow-y: scroll;
+    }
+
+th {
+    font-family: sans-serif;
+    font-size: 0.85em;
+    font-weight: normal;
+    text-decoration: underline;
+    }
+
+th.center-header {
+    text-align: center;
+    }
+
+th,
+td {
+    padding: 0.3em;
+    text-align: left;
+    }
+
+table {
+    border-collapse: collapse;
+    font-size: 0.94em;
+    width: 99%;
+    }
+
+table#education {
+    margin: 0 0 1em 0;
+    }
+
+table#experience {
+    position: relative;
+    }
+
+td {
+    border: 1px solid #000000;
+    }
+
+td h3 {
+    font-family: sans-serif;
+    margin: 0.5em 0.8em 0.2em 1.2em;
+//    text-decoration: underline;
+    }
+
+td p {
+    font-size: 0.9em;
+    }
+
+td.institution {
+    width: 21em;
+    }
+
+td.period {
+    text-align: center;
+    width: 6em;
+    }
+
+tr.even {
+    background-color: #eeeeee;
+    }
+
+tr:hover {
+    background-color: #a8b4ba;
+    }
+
+table#education tr:hover {
+    cursor: default;
+    }
+
+table#experience h3 span.title {
+    text-decoration: underline;
+    }
+
+table#experience h3 span.year {
+    color: grey;
+    font-size: 0.75em;
+    font-weight: normal;
+    position: relative;
+      left: 1em;
+      top: 0;
+    text-decoration: none;
+    }
+
+table#experience td.period:hover,
+table#experience td.position:hover {
+    cursor: default;
+    }
+
+table#experience td.details {
+    display: none;
+    }
+
+table#experience td.institution {
+    text-decoration: underline;
+    }
+
+table#experience td.details {
+    background-color: #ffffff;
+    border-radius: 1em;
+    box-shadow: 3px 2px 4px #000000;
+    max-width: 30em;
+    padding: 0.5em;
+    }
+
+tr:hover th {
+    background-color: #ffffff;
+    cursor: default;
+    }
+
+table a,
+table a:visited {
+    color: #000000;
+    }
+
+body.reference h4 {
+    font-family: sans-serif;
+    margin: 1.5em 0 -1em 0;
+    }
+
+ul#reference {
+    margin-top: 1.5em;
+    }
+
+ul#reference li {
+    font-size: 0.95em;
+    list-style-type: square;
+    margin: 1em 1.5em 1em 1.5em;
+    }
+
+table#experience tr td:first-child:hover  {
+    cursor: help;
+    }
+
+table#experience tr td:first-child:hover ~ td:last-child {
+    display: block;
+    position: absolute;
+      right: -6em;
+      top: 0em;
+    }
+
+section#text p {
+//    text-align: justify;
+    }
+
+@import url(http://fonts.googleapis.com/css?family=Sanchez|Economica|Dr+Sugiyama);
+
+section#text p,
+section#text th,
+section#text td,
+section#text td h3,
+section#text tr {
+    font-family: serif;
+    font-family: "Habibi", serif;
+    }
+
+section#text td,
+setcion#text tr {
+    font-size: 0.95em;
+    }
+
+section#author {
+    display: none;
+    }
