@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #060709;
+    background-image: url("../media/background-blue.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div#main_container {
+    display: flex;
+    flex-flow: column;
+    margin: 6em auto 0;
+    width: 55em;
+}
+
+header {
+    font-family: sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    margin-left: 3.4em;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+}
+
+header nav ul li {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('../media/exclusive_paper.png');
+    border: 1px 1px 0 1px #000;
+    margin-right: 0.5em;
+}
+
+header nav ul li a {
+    color: #666;
+    display: block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+}
+
+header nav ul li.active a {
+    text-decoration: underline;
+}
+
+header nav ul li:hover a {
+    color: #000;
+    background-color: #a8b4ba;
+}
+
+header nav ul li a:active {
+    background-color: #694645;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+div#inner_container {
+    background-image: url('../media/exclusive_paper.png');
+    background-repeat: repeat;
+    background-size: 50% 50%;
+    border: 4px #000 double;
+    height: 34em;
+    //width: 55em;
+    width: 100%;
+}
+
+div#wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+
+div#logo {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+div#logo h1 {
+    border-bottom: 2px solid #778691;
+    font-family: sans-serif;
+    font-family: Georgia, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 3.9em;
+    font-weight: normal;
+    margin-top: 2.5em;
+    text-decoration: none;
+    text-shadow: 1px 2px 3px #555;
+    text-transform: uppercase;
+}
+
+div#logo a {
+    color: #333;
+    text-decoration: none;
+}
+
+div#logo h2 {
+    color: #666;
+    font-size: 1.4em;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0.5em 0 0 0;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: Habibi;
+    font-size: 1.2em;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 3.5em;
+    width: 100%;
+}
+
+footer div#left {
+
+}
+
+footer div#right {
+
+}
+
+footer div#right_footer a {
+    color: #486a91;
+}
+
+/* BODY PROFILE */
+
+div#inner_container {
+    display: flex;
+    flex-flow: column;
+}
+
+div#top_container {
+    display: flex;
+    flex-flow: row;
+    margin: 1em 0 1em 0;
+}
+
+div#top_left,
+div#top_right {
+    width: 50%;
+}
+
+div#top_left {
+
+}
+
+div#top_left h1 {
+    font-family: sans-serif;
+    font-family: Georgia, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2.3em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 2px 3px #555;
+    text-transform: uppercase;
+}
+
+div#top_left h1 a {
+    border-bottom: 1px solid #778691;
+    color: #000;
+    text-decoration: none;
+}
+
+div#top_left h2 {
+    color: #444444;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#top_right {
+    position: relative;
+}
+
+div#top_right h3 {
+    background-color: #694645;
+    border-radius: 0.3em;
+    box-shadow: 3px 2px 4px #000000;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    position: absolute;
+    top: 1.5em;
+    right: 3em;
+    width: 9em;
+}
+
+div#top_right h3:hover a {
+    background-color: #eeefff;
+    color: #694645;
+}
+
+div#top_right h3 a {
+    border-radius: 0.3em;
+    color: #eeefff;
+    display: block;
+    padding: 0.5em 1em 0.5em 1em;
+    text-decoration: none;
+}
+
+div#bottom_container {
+    display: flex;
+    flex-flow: row nowrap;
+//    height: 26em;
+    justify-content: space-around;
+}
+
+div#bottom_left,
+div#bottom_right {
+    width: 50%;
+}
+
+div#bottom_left {
+
+}
+
+div#bottom_left p {
+    /*
+        font-family: serif;
+        font-family: "Sanchez", serif;
+        font-size: 1em;
+        line-height: 1.2em;
+        margin-bottom: 0.75em;
+        */
+}
+
+div#bottom_left p:last-child {
+    margin-bottom: 0;
+}
+
+div#bottom_right {
+    display: flex;
+    flex-flow: column;
+}
+
+div#bottom_right img,
+div#bottom_right div#caption {
+    margin: 0 auto;
+    width: 75%;
+}
+
+div#bottom_right div#caption {
+    border: 1px solid #ccc;
+    margin-top: 0.7em;
+}
+
+div#bottom_right div#caption p {
+    padding: 0.25em;
+    text-align: center;
+}
+
+div#bottom_right div#caption p a {
+    color: #486a91;
+}
+
+/* TABLES */
+
+th {
+    font-family: sans-serif;
+    font-size: 0.85em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+th,
+td {
+    padding: 0.3em;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.94em;
+    width: 100%;
+}
+
+table#education {
+    margin: 0 0 1em 0;
+}
+
+table#experience {
+    position: relative;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+td h3 {
+    font-family: sans-serif;
+    margin: 0.5em 0.8em 0.2em 1.2em;
+}
+
+td p {
+    font-size: 0.9em;
+}
+
+td.institution {
+    width: 21em;
+}
+
+td.period {
+    text-align: center;
+    width: 6em;
+}
+
+tr.even {
+    background-color: #eeeeee;
+}
+
+tr:hover {
+    background-color: #a8b4ba;
+}
+
+table#education tr:hover {
+    cursor: default;
+}
+
+table#experience h3 span.title {
+    font-family: serif;
+    font-family: "Sanchez", serif;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+table#experience h3 span.year {
+    color: grey;
+    font-size: 0.75em;
+    font-weight: normal;
+    position: relative;
+    left: 1em;
+    top: 0;
+    text-decoration: none;
+}
+
+table#experience td.period:hover,
+table#experience td.position:hover {
+    cursor: default;
+}
+
+table#experience td.details {
+    display: none;
+}
+
+table#experience td.institution {
+    text-decoration: underline;
+}
+
+table#experience td.details {
+    background-color: #ffffff;
+    border-radius: 1em;
+    box-shadow: 3px 2px 4px #000000;
+    max-width: 30em;
+    padding: 0.5em;
+}
+
+tr:hover th {
+    background-color: #ffffff;
+    cursor: default;
+}
+
+table a,
+table a:visited {
+    color: #000000;
+}
+
+body.reference h4 {
+    font-family: sans-serif;
+    margin: 1.5em 0 -1em 0;
+}
+
+ul#reference {
+    margin-top: 1.5em;
+}
+
+ul#reference li {
+    font-size: 0.95em;
+    list-style-type: square;
+    margin: 1em 1.5em 1em 1.5em;
+}
+
+table#experience tr td:first-child:hover  {
+    cursor: help;
+}
+
+table#experience tr td:first-child:hover ~ td:last-child {
+    display: block;
+    position: absolute;
+    right: -6em;
+    top: 0em;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) and (orientation: landscape) {
+    div#main_container {
+        margin: 5em auto 0;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) and (orientation: landscape) {
+    div#main_container {
+        margin: 3em auto 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) and (min-height: 700px) and (orientation: landscape) {
+    div#main_container {
+        margin: 5em auto 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) and (min-height: 650px) and (max-height: 699px) and (orientation: landscape) {
+    div#main_container {
+        margin: 2em auto 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) and (max-height: 649px) and (orientation: landscape) {
+    div#main_container {
+        margin: 0.5em auto 0;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px) and (orientation: landscape) {
+    div#main_container {
+        margin: 2em auto 0;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 959px)and (orientation: landscape) {
+    div#main_container {
+        margin: 0.5em auto 0;
+        width: 45em;
+    }
+
+    div#inner_container {
+        height: 26.5em;
+        width: 100%;
+    }
+
+    body.profile div#inner_container,
+    body.cv div#inner_container {
+        height: 36em;
+        margin-bottom: 2em;
+    }
+
+    div#logo h1 {
+        font-size: 3em;
+        margin-top: 2.5em;
+    }
+
+    div#logo h2 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        bottom: 1em;
+        font-family: Habibi;
+        font-size: 1.1em;
+        letter-spacing: 2px;
+    }
+
+    div#top_left h1 {
+        font-size: 1.8em;
+        margin-top: 0.4em;
+    }
+
+    div#top_left h2 {
+        font-size: 0.95em;
+    }
+
+    table#experience tr td:first-child:hover ~ td:last-child {
+        right: -2em;
+    }
+
+}

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-  <head>
+<head>
     <meta name="description" content="Personal Homepage of Experienced and Professional Corporate Finance Advisor Jan Greve-Isdahl."/>
     <meta name="keywords" content="finance, advisor, advisement, corporate, finans, bedrift, rådgivning, rådgiver"/>
     <meta name="author" content="Nils Martinussen"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0;"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;"/>
+    <link rel="stylesheet" type="text/css" href="style/main.css" media="screen"/>
+
+    <!--
     <link rel="stylesheet" type="text/css" href="style/general.css" media="screen"/>
     <link rel="stylesheet" type="text/css" media="screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="style/iphone3-4_landscape.css"/>
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 799px)" href="style/max-w799.css"/>
@@ -13,48 +16,59 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="style/min-w1024.css"/>
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px) and (max-width: 1599px)" href="style/min-w1280.css"/>
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="style/min-w1600.css"/>
+    -->
+
     <link href="http://fonts.googleapis.com/css?family=Sanchez|Economica|Dr+Sugiyama|Habibi" rel="stylesheet" type="text/css"/>
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-41560897-1']);
-      _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-41560897-1']);
+        _gaq.push(['_trackPageview']);
 
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
-      'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-      })();
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+                    'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
     </script>
     <title>Jan Greve-Isdahl</title>
-  </head>
-  <body class="home">
-    <div id="container">
-      <nav>
-	<ul>
-	  <li class="active" id="home"><a href="#">Hjem</a></li>
-	  <li id="profile"><a href="profile.html">Profil</a></li>
-	  <li id="cv"><a href="cv.html">Curriculum Vitae</a></li>
-	</ul>
-      </nav>
-      <header>
-	<h1><a href="profile.html">Jan Greve-Isdahl</a></h1>
-	<h2>Rådgiver Corporate Finance</h2>
-      </header>
-      <div id="left-container">
-	<section class="presentation" id="left-footer">
-	  <p class="adress-label" id="street">Strandgaten 15</p>
-	  <p class="adress-label" id="city">5013 Bergen</p>
-	  <p class="adress-label" id="country">Norway</p>
-	</section>
-	<section class="presentation" id="right-footer">
-	  <p class="adress-label"><span id="email-label">Epost: </span><a href="mailto:jan%40greve-isdahl%2eno?subject=Finansiell rådgivning" tabindex="5" title="Send meg en epost">jan@greve-isdahl.no</a></p>
-	  <p><span id="phone-label">Telefon: </span>+47 909 84 734</p>
-	  <section id="author">Design and Development by <a href="http://www.nima-design.net">Nils Martinussen</a></section>
-	</section>
-      </div> <!-- end left-container -->
-    </div> <!-- end container -->
-  </body>
+</head>
+<body class="home">
+<div id="main_container">
+    <header>
+        <nav>
+            <ul>
+                <li class="active" id="home"><a href="#">Hjem</a></li>
+                <li id="profile"><a href="profile.html">Profil</a></li>
+                <li id="cv"><a href="cv.html">Curriculum Vitae</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="inner_container">
+        <div id="wrapper">
+            <div id="logo">
+                <h1><a href="profile.html">Jan Greve-Isdahl</a></h1>
+                <h2>Rådgiver Corporate Finance</h2>
+            </div>
+            <footer>
+                <div class="contact_information" id="left_footer">
+                    <p class="address" id="street">Strandgaten 15</p>
+                    <p class="address" id="city">5013 Bergen</p>
+                    <p class="address" id="country">Norway</p>
+                </div>
+                <div class="contact_information" id="right_footer">
+                    <p class="address">
+                        <span id="email">Epost: </span>
+                        <a href="mailto:jan%40greve-isdahl%2eno?subject=Finansiell rådgivning"
+                           tabindex="5" title="Send meg en epost">jan@greve-isdahl.no</a>
+                    </p>
+                    <p><span id="phone">Telefon: </span>+47 909 84 734</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
 </html>

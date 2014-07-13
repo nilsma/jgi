@@ -15,7 +15,6 @@ nav {
     position: absolute;
       left: 2em;
       top: -2.3em;
-//    z-index: -1;
     }
 
 nav ul {
@@ -24,7 +23,7 @@ nav ul {
     }
 
 nav ul li {
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px 1px 0 1px solid #000000;
     float: left;
     font-family: sans-serif;
@@ -68,77 +67,73 @@ nav li:active a {
     outline: none;
     }
 
-body.profile header,
-body.cv header {
+body.profile div#header,
+body.cv div#header {
     float: none;
-    margin: 0.7em 1.5em 0.3em; 2em;
-    padding-left: 2.5em;
+    margin: 0.7em 1.5em 0.3em 2em;
+    padding-left: 0.5em;
     }
 
-header h1 {
+div#header h1 {
     font-family: sans-serif;
     font-family: Georgia, serif;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 1.79em;
+    font-size: 2.3em;
     font-weight: normal;
     text-align: left;
     text-decoration: none;
-    text-shadow: 1px 1px 1px #555555;
+    text-shadow: 1px 2px 3px #555;
     text-transform: uppercase;
     }
 
-body.profile header h1 a,
-body.cv header h1 a {
+body.profile div#header h1 a,
+body.cv div#header h1 a {
     border-bottom: 1px solid #778691;
     }
 
-body.profile header h2,
-body.cv header h2 {
+body.profile div#header h2,
+body.cv div#header h2 {
     margin-top: 0.5em;
-    margin-left: 0.75em;
+    margin-left: 0;
     }
 
-body.home header {
-    letter-spacing: 2px;
-    margin: 8em 0.5em 0.3em 5em;
-    width: 40.5em;
-    width: 35em;
+body.home div#header {
+    letter-spacing: 3px;
+    margin: 9em auto;
+    width: 43em;
+
     }
 
-body.home header h1 {
+body.home div#header h1 {
     border-bottom: 2px solid #778691;
-    font-size: 3em;
+    font-size: 3.7em;
     text-align: center;
     text-decoration: none;
     }
 
-body.home header h1 a,
-body.profile header h1 a,
-body.cv header h1 a {
+body.home div#header h1 a,
+body.profile div#header h1 a,
+body.cv div#header h1 a {
     color: #333333;
     }
 
-body.home header h2 {
-    font-size: 1.1em;
+body.home div#header h2 {
+    font-size: 1.4em;
     letter-spacing: 4px;
     margin: 0.5em 0 0 0em;
     text-align: center;
     }
 
-body.home footer {
-    display: none;
-    }
-
-header h2 {
+div#header h2 {
     color: #444444;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: normal;
     letter-spacing: 2px;
     margin: 0 0 0 1em;
     text-transform: uppercase;
     }
 
-header h3 {
+div#header h3 {
     background-color: #694645;
     border-radius: 0.3em;
     box-shadow: 3px 2px 4px #000000;
@@ -148,11 +143,11 @@ header h3 {
       right: 2.5em;
     }
 
-header h3:hover {
+div#header h3:hover {
     background-color: #eeefff;
     }
 
-header h3 a {
+div#header h3 a {
     border-radius: 0.3em;
     color: #eeefff;
     display: block;
@@ -160,79 +155,71 @@ header h3 a {
     text-decoration: none;
     }
 
-header h3 a:visited {
+div#header h3 a:visited {
     color: #eeefff;
     text-decoration: none;
     }
 
-header h3 a:active {
+div#header h3 a:active {
     border-radius: 0.3em;
     color: #eeefff;
     outline: none;
     }
 
-header h3:hover a {
+div#header h3:hover a {
     background-color: #eeefff;
     color: #694645;
     }
 
 
-header h3 a:hover {
+div#header h3 a:hover {
     background-color: #eeefff;
     color: #694645;
     }
 
-header h1 a,
-header h1 a:visited {
+div#header h1 a,
+div#header h1 a:visited {
     color: #000000;
     text-decoration: none;
     }
 
 div#container {
-    background-color: #ffffff;
+    background-image: url('../media/exclusive_paper.png');
+    background-repeat: repeat;
+    background-size: 50% 50%;
     border: 4px #000 double;
     box-shadow: 0.5em 0.8em 1.2em #000000;
-    float: left;
-    height: 29em;
-    padding: 1em;
+    height: 33.4em;
     position: relative;
-      left: 13em;
-      top: 4em;
-    width: 52em;
-    width: 45em;
-//    z-index: 10;
+    margin: 7em auto 0;
+    width: 54em;
     }
 
-body.home div#left-container {
+footer {
     letter-spacing: 3px;
     font-family: Habibi;
+    font-size: 1.1em;
+    justify-content: center;
     position: absolute;
-      left: 0;
-      bottom: 0;
+    bottom: 0;
     width: 100%;
-    }
+}
 
-body.home div#right-container {
-    display: none;
-    }
-
-body.home section#left-footer {
+body.home footer section#left_footer {
     float: left;
-    margin-left: 3em;
-    margin-bottom: 2em;
-    }
+    margin: 0 0 2em 3em;
+}
 
-body.home section#right-footer {
+body.home footer section#right_footer {
     float: right;
-    margin-right: 3em;
-    margin-bottom: 2em;
-    }
+    margin: 0 3em 2em 0;
+}
 
-p.adress-label {
+p.address {
     margin-bottom: 0.5em;
     }
 
-p.adress-label a {
+p.address a {
     color: #486a91;
     }
 
@@ -269,7 +256,7 @@ section#visual p {
     margin: 0.5em 0 0.5em 0;
     }
 
-footer {
+div#caption {
     border: 1px solid black;
     margin: 0 0 0 -0.5em;
     padding: 0.2em 0 0.2em 0;
@@ -277,11 +264,11 @@ footer {
     width: 16.5em;
     }
 
-footer span {
+div#caption span {
     display: none;
     }
 
-footer a  {
+div#caption a  {
     color: #486a91;
     }
 
@@ -306,7 +293,7 @@ th {
     text-decoration: underline;
     }
 
-th.center-header {
+th.center-div#header {
     text-align: center;
     }
 
@@ -337,7 +324,6 @@ td {
 td h3 {
     font-family: sans-serif;
     margin: 0.5em 0.8em 0.2em 1.2em;
-//    text-decoration: underline;
     }
 
 td p {
@@ -436,12 +422,6 @@ table#experience tr td:first-child:hover ~ td:last-child {
       top: 0em;
     }
 
-section#text p {
-//    text-align: justify;
-    }
-
-@import url(http://fonts.googleapis.com/css?family=Sanchez|Economica|Dr+Sugiyama);
-
 section#text p,
 section#text th,
 section#text td,
@@ -454,8 +434,4 @@ section#text tr {
 section#text td,
 setcion#text tr {
     font-size: 0.95em;
-    }
-
-section#author {
-    display: none;
     }
