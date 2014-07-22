@@ -974,6 +974,56 @@ table#experience tr td:first-child:hover ~ td:last-child {
     td.period {
         width: 5em;
     }
+
+    table#experience tr.facts:hover + tr.details {
+        width: 19em;
+    }
+
+    table#experience tr.facts:nth-child(2):hover + tr.details {
+        right: -3em;
+        top: 1em;
+    }
+
+    table#experience tr.facts:nth-child(4):hover + tr.details {
+        right: -3em;
+        top: 2em;
+    }
+
+    table#experience tr.facts:nth-child(6):hover + tr.details {
+        right: -3em;
+        top: 5em;
+    }
+
+    table#experience tr.facts:nth-child(8):hover + tr.details {
+        right: -3em;
+        top: 7em;
+    }
+
+    table#experience tr.facts:nth-child(10):hover + tr.details {
+        right: -3em;
+        top: 9em;
+    }
+
+    table#experience tr.facts:nth-child(12):hover + tr.details {
+        right: -3em;
+        top: 12em;
+    }
+
+    table#experience tr.facts:nth-child(14):hover + tr.details {
+        right: -3em;
+        top: 17em;
+    }
+
+    table#experience tr.facts:nth-child(16):hover + tr.details {
+        right: -3em;
+        top: 20em;
+    }
+
+    table#experience tr.facts:nth-child(18):hover + tr.details {
+        right: -3em;
+        top: 25em;
+    }
+
 }
 
 @media screen and (min-width: 1200px) and (orientation: portrait) {
@@ -1733,6 +1783,55 @@ table#experience tr td:first-child:hover ~ td:last-child {
 
     td.position span {
         display: none;
+    }
+
+    table#experience tr.facts:hover + tr.details {
+        width: 15em;
+    }
+
+    table#experience tr.facts:nth-child(2):hover + tr.details {
+        right: -1em;
+        top: 1em;
+    }
+
+    table#experience tr.facts:nth-child(4):hover + tr.details {
+        right: -1em;
+        top: 2em;
+    }
+
+    table#experience tr.facts:nth-child(6):hover + tr.details {
+        right: -1em;
+        top: 5em;
+    }
+
+    table#experience tr.facts:nth-child(8):hover + tr.details {
+        right: -1em;
+        top: 7em;
+    }
+
+    table#experience tr.facts:nth-child(10):hover + tr.details {
+        right: -1em;
+        top: 9em;
+    }
+
+    table#experience tr.facts:nth-child(12):hover + tr.details {
+        right: -1em;
+        top: 12em;
+    }
+
+    table#experience tr.facts:nth-child(14):hover + tr.details {
+        right: -1em;
+        top: 17em;
+    }
+
+    table#experience tr.facts:nth-child(16):hover + tr.details {
+        right: -1em;
+        top: 20em;
+    }
+
+    table#experience tr.facts:nth-child(18):hover + tr.details {
+        right: -1em;
+        top: 25em;
     }
 
 }
