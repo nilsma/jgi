@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f8e909-5cba-410a-8047-17e144dacb89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cv.html" afterPath="$PROJECT_DIR$/html/cv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev.iws" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1563" column="20" selection-start="26108" selection-end="26108" vertical-scroll-proportion="0.03812825" vertical-offset="34364" max-vertical-offset="37532">
+            <state line="1563" column="20" selection-start="26108" selection-end="26108" vertical-scroll-proportion="0.03826087" vertical-offset="34364" max-vertical-offset="37532">
               <folding />
             </state>
           </provider>
@@ -156,13 +154,18 @@
       <created>1405921402910</created>
       <updated>1405921402910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed table first child hover display positioning">
+      <created>1406022708170</created>
+      <updated>1406022708170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -178,7 +181,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -197,7 +199,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="fixed table width problems with small responsives" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed table width problems with small responsives" />
+    <MESSAGE value="fixed table first child hover display positioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed table first child hover display positioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -296,7 +299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1563" column="20" selection-start="26108" selection-end="26108" vertical-scroll-proportion="0.03812825" vertical-offset="34364" max-vertical-offset="37532">
+        <state line="1563" column="20" selection-start="26108" selection-end="26108" vertical-scroll-proportion="0.03826087" vertical-offset="34364" max-vertical-offset="37532">
           <folding />
         </state>
       </provider>
