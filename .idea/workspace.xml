@@ -53,7 +53,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="848" column="18" selection-start="15310" selection-end="15310" vertical-scroll-proportion="0.56347823" vertical-offset="18332" max-vertical-offset="38346">
+            <state line="1833" column="18" selection-start="31130" selection-end="31130" vertical-scroll-proportion="1.7791305" vertical-offset="39303" max-vertical-offset="40524">
               <folding />
             </state>
           </provider>
@@ -164,7 +164,11 @@
       <created>1406041962589</created>
       <updated>1406041962589</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed table first child hover display positioning">
+      <created>1406042817045</created>
+      <updated>1406042817045</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="848" column="18" selection-start="15310" selection-end="15310" vertical-scroll-proportion="0.56347823" vertical-offset="18332" max-vertical-offset="38346">
+        <state line="1833" column="18" selection-start="31130" selection-end="31130" vertical-scroll-proportion="1.7791305" vertical-offset="39303" max-vertical-offset="40524">
           <folding />
         </state>
       </provider>
