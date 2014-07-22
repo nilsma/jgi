@@ -501,7 +501,7 @@ table#experience tr.facts:nth-child(16):hover + tr.details {
 
 table#experience tr.facts:nth-child(18):hover + tr.details {
     right: 0;
-    top: 14em;
+    top: 18em;
 }
 
 /*
@@ -1567,12 +1567,12 @@ table#experience tr td:first-child:hover ~ td:last-child {
 
     table#experience tr.facts:nth-child(16):hover + tr.details {
         right: -2em;
-        top: 19em;
+        top: 23em;
     }
 
     table#experience tr.facts:nth-child(18):hover + tr.details {
         right: -2em;
-        top: 23em;
+        top: 26em;
     }
 }
 
