@@ -4,7 +4,7 @@
 }
 
 html {
-    //overflow-y: hidden;
+//overflow-y: hidden;
 }
 
 body {
@@ -166,14 +166,6 @@ footer {
     width: 100%;
 }
 
-div#left_footer {
-
-}
-
-div#right_footer {
-
-}
-
 footer div#right_footer a {
     color: #486a91;
 }
@@ -205,10 +197,6 @@ div#top_container {
 div#top_left,
 div#top_right {
     width: 50%;
-}
-
-div#top_left {
-
 }
 
 div#top_left h1 {
@@ -284,10 +272,6 @@ div#bottom_container {
 div#bottom_left,
 div#bottom_right {
     width: 50%;
-}
-
-div#bottom_left {
-
 }
 
 div#bottom_left figure#inner_image {
@@ -427,16 +411,6 @@ table#experience td.institution {
     text-decoration: underline;
 }
 
-table#experience td.details {
-    background-color: #ffffff;
-    border-radius: 1em;
-    box-shadow: 3px 2px 4px #000000;
-    display: none;
-    max-width: 30em;
-    padding: 0.5em;
-    z-index: -1;
-}
-
 tr:hover th {
     background-color: #ffffff;
     cursor: default;
@@ -462,8 +436,7 @@ ul#reference li {
     margin: 1em 1.5em 1em 1.5em;
 }
 
-tr.even,
-tr.odd {
+table#experience {
     position: relative;
 }
 
@@ -471,14 +444,87 @@ table#experience tr td:first-child:hover  {
     cursor: help;
 }
 
+table#experience tr.details {
+    display: none;
+}
+
+table#experience tr.facts:hover + tr.details {
+    background-color: rgba(255, 255, 255, 1);
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 30em;
+}
+
+table#experience tr.facts:nth-child(2):hover + tr.details {
+    right: 0;
+    top: 0;
+}
+
+table#experience tr.facts:nth-child(4):hover + tr.details {
+    right: 0;
+    top: 2em;
+}
+
+table#experience tr.facts:nth-child(6):hover + tr.details {
+    right: 0;
+    top: 3em;
+}
+
+table#experience tr.facts:nth-child(8):hover + tr.details {
+    right: 0;
+    top: 4em;
+}
+
+table#experience tr.facts:nth-child(10):hover + tr.details {
+    right: 0;
+    top: 5em;
+}
+
+table#experience tr.facts:nth-child(12):hover + tr.details {
+    right: 0;
+    top: 6em;
+}
+
+table#experience tr.facts:nth-child(14):hover + tr.details {
+    right: 0;
+    top: 7em;
+}
+
+table#experience tr.facts:nth-child(16):hover + tr.details {
+    right: 0;
+    top: 12em;
+}
+
+table#experience tr.facts:nth-child(18):hover + tr.details {
+    right: 0;
+    top: 14em;
+}
+
+/*
+table#experience tr td:last-child {
+    background-color: #ffffff;
+    border-radius: 1em;
+    box-shadow: 3px 2px 4px #000000;
+    display: none;
+    max-width: 30em;
+    padding: 0.5em;
+    z-index: -1;
+}
+
 table#experience tr td:first-child:hover ~ td:last-child {
     background-color: rgba(255, 255, 255, 1);
     display: block;
+    float: right;
     position: absolute;
-    right: 0em;
-    top: -2em;
+    right: 0;
+    top: 0;
     z-index: 1;
 }
+*/
 
 @media screen and (min-width: 1366px) and (max-width: 1439px) and (orientation: landscape) {
     div#main_container {
@@ -486,7 +532,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 7em;
+        width: 7em;
     }
 }
 
@@ -496,7 +542,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 6em;
+        width: 6em;
     }
 }
 
@@ -506,7 +552,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 6em;
+        width: 6em;
     }
 }
 
@@ -516,7 +562,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 6em;
+        width: 6em;
     }
 }
 
@@ -526,7 +572,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 5em;
+        width: 5em;
     }
 }
 
@@ -536,7 +582,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.period {
-	width: 5em;
+        width: 5em;
     }
 }
 
@@ -592,7 +638,7 @@ table#experience tr td:first-child:hover ~ td:last-child {
 
 @media screen and (min-width: 720px) and (max-width: 799px) and (orientation: landscape) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     div#main_container {
@@ -640,22 +686,22 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     table#experience tr td:first-child:hover ~ td:last-child {
-	right: -2em;
-	width: 25em;
+        right: -2em;
+        width: 25em;
     }
 }
 
 @media screen and (min-width: 640px) and (max-width: 719px) and (orientation: landscape) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     header {
-	font-size: 0.95em;
+        font-size: 0.95em;
     }
 
     header nav ul {
-	margin-left: 1em;
+        margin-left: 1em;
     }
 
     div#main_container {
@@ -694,16 +740,16 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     div#top_container {
-	margin-top: 0.5em;
-	margin-bottom: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
     }
 
     div#top_left {
-	width: 70%;
+        width: 70%;
     }
 
     div#top_left h1 {
@@ -715,76 +761,76 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 0.8em;
-	top: 0.5em;
-	right: 0em;
-	width: 5em;
+        font-size: 0.8em;
+        top: 0.5em;
+        right: 0;
+        width: 5em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left p {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	text-align: justify;
+        font-size: 1em;
+        margin-bottom: 0.5em;
+        text-align: justify;
     }
 
     div#bottom_right {
-	display: none;
-	width: 30%;
-	height: 16em;
+        display: none;
+        width: 30%;
+        height: 16em;
     }
 
     div#bottom_right p {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     div#bottom_right p span {
-	display: none;
+        display: none;
     }
 
     div#bottom_left img#inner_image {
-	display: block;
-	float: right;
-	height: 9em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 9em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     table#experience tr td:first-child:hover ~ td:last-child {
-	right: -5em;
-	width: 20em;
+        right: -5em;
+        width: 20em;
     }
 
     td.institution {
-	width: 10em;
+        width: 10em;
     }
 
     td.period {
-	min-width: 5em;
+        min-width: 5em;
     }
 }
 
 @media screen and (max-width: 639px) and (orientation: landscape) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     header {
-	font-size: 0.95em;
+        font-size: 0.95em;
     }
 
     header nav ul {
-	margin-left: 1em;
+        margin-left: 1em;
     }
 
     div#main_container {
@@ -823,11 +869,11 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     div#top_left {
-	width: 70%;
+        width: 70%;
     }
 
     div#top_left h1 {
@@ -840,46 +886,46 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 0.8em;
-	top: 0.5em;
-	right: 0em;
-	width: 5em;
+        font-size: 0.8em;
+        top: 0.5em;
+        right: 0;
+        width: 5em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left p {
-	margin-bottom: 0.5em;
-	text-align: justify;
+        margin-bottom: 0.5em;
+        text-align: justify;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     div#bottom_right p {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     div#bottom_right p span {
-	display: none;
+        display: none;
     }
 
     div#bottom_left img#inner_image {
-	display: block;
-	float: right;
-	height: 9em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 9em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     table#experience tr td:first-child:hover ~ td:last-child {
@@ -887,37 +933,37 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     td.institution {
-	width: 10em;
+        width: 10em;
     }
 
     td.period {
-	width: 5em;
+        width: 5em;
     }
 }
 
 @media screen and (min-width: 1200px) and (orientation: portrait) {
     div#main_container {
-	width: 90%;
+        width: 90%;
     }
 
     div#top_left h1 {
-	font-size: 2em;
+        font-size: 2em;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1199px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     div#main_container {
 
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 21em;
+        height: 21em;
     }
 
     body.profile div#inner_container {
@@ -931,77 +977,77 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	font-size: 2.3em;
-	margin-top: 2em;
+        font-size: 2.3em;
+        margin-top: 2em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 0.8em;
-	top: 0.5em;
-	right: 0em;
-	width: 5em;
+        font-size: 0.8em;
+        top: 0.5em;
+        right: 0;
+        width: 5em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#top_left h1 {
-	font-size: 1.8em;
+        font-size: 1.8em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: block;
-	float: right;
-	height: 13em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 13em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 1em;
+        font-size: 1em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     td.institution {
-	width: 40%;
+        width: 40%;
     }
 
     td.period {
-	width: 20%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 799px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     div#main_container {
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 21em;
+        height: 21em;
     }
 
     body.profile div#inner_container {
@@ -1015,81 +1061,81 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	font-size: 2.8em;
-	margin-top: 1.5em;
+        font-size: 2.8em;
+        margin-top: 1.5em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     body.profile div#top_left h2 {
-	margin-bottom: 2em;
+        margin-bottom: 2em;
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 1em;
-	top: 0.5em;
-	right: 0em;
-	width: 8em;
+        font-size: 1em;
+        top: 0.5em;
+        right: 0;
+        width: 8em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#top_left h1 {
-	font-size: 1.8em;
+        font-size: 1.8em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: block;
-	float: right;
-	height: 13em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 13em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 1em;
+        font-size: 1em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     td.institution {
-	width: 40%;
+        width: 40%;
     }
 
     td.period {
-	width: 20%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 720px) and (max-width: 767px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     div#main_container {
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 21em;
+        height: 21em;
     }
 
     body.profile div#inner_container {
@@ -1103,66 +1149,66 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	font-size: 2.8em;
-	margin-top: 1.5em;
+        font-size: 2.8em;
+        margin-top: 1.5em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     body.profile div#top_left h2 {
-	margin-bottom: 2em;
+        margin-bottom: 2em;
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 1em;
-	top: 0.5em;
-	right: 0em;
-	width: 8em;
+        font-size: 1em;
+        top: 0.5em;
+        right: 0;
+        width: 8em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#top_left h1 {
-	font-size: 1.8em;
+        font-size: 1.8em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: block;
-	float: right;
-	height: 13em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 13em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 1em;
+        font-size: 1em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     td.institution {
-	width: 40%;
+        width: 40%;
     }
 
     td.period {
-	width: 20%;
+        width: 20%;
     }
 }
 
@@ -1172,16 +1218,16 @@ table#experience tr td:first-child:hover ~ td:last-child {
 
 @media screen and (min-width: 600px) and (max-width: 719px) and (max-height: 1200px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     div#main_container {
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 21em;
+        height: 21em;
     }
 
     body.profile div#inner_container {
@@ -1195,93 +1241,93 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	font-size: 2.8em;
-	margin-top: 2em;
+        font-size: 2.8em;
+        margin-top: 2em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 1em;
-	top: 0.5em;
-	right: 0em;
-	width: 8em;
+        font-size: 1em;
+        top: 0.5em;
+        right: 0;
+        width: 8em;
     }
 
     div#top_right h3 a {
-	padding: 0.25em;
+        padding: 0.25em;
     }
 
     div#top_left h1 {
-	font-size: 1.8em;
+        font-size: 1.8em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: block;
-	float: right;
-	height: 13em;
-	margin: 0.5em 1em 1em 1em;
+        display: block;
+        float: right;
+        height: 13em;
+        margin: 0.5em 1em 1em 1em;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 1em;
+        font-size: 1em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     td.institution {
-	width: 40%;
+        width: 40%;
     }
 
     td.period {
-	width: 20%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 639px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     header {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     header nav ul {
-	margin-left: 0.5em;
+        margin-left: 0.5em;
     }
 
     header nav ul li {
-	margin-right: 0.5em;
+        margin-right: 0.5em;
     }
 
     header nav ul li a {
-	padding: 0.25em 0.5em;
-    }   
+        padding: 0.25em 0.5em;
+    }
 
     div#main_container {
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 16em;
+        height: 16em;
     }
 
     body.profile div#inner_container {
@@ -1295,105 +1341,105 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	clear: both;
-	font-size: 1.8em;
-	margin-top: 2em;
+        clear: both;
+        font-size: 1.8em;
+        margin-top: 2em;
     }
 
     div#logo h1 a {
-	display: block;
+        display: block;
     }
 
     div#logo h2 {
-	font-size: 1em;
+        font-size: 1em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 0.8em;
-	top: 0em;
-	right: 0em;
-	width: 5em;
+        font-size: 0.8em;
+        top: 0;
+        right: 0;
+        width: 5em;
     }
 
     div#top_right h3 a {
-	padding: 0.1em;
+        padding: 0.1em;
     }
 
     div#top_left h1 {
-	font-size: 1.3em;
+        font-size: 1.3em;
     }
 
     div#top_left h2 {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: none;
+        display: none;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 1em;
-	letter-spacing: 1px;
-	bottom: 2em;
+        font-size: 1em;
+        letter-spacing: 1px;
+        bottom: 2em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     td.institution {
-	width: 40%;
+        width: 40%;
     }
 
     td.period {
-	width: 20%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 479px) and (orientation: portrait) {
     html {
-	overflow-y: hidden;
+        overflow-y: hidden;
     }
 
     header {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     header nav ul {
-	margin-left: 0.5em;
+        margin-left: 0.5em;
     }
 
     header nav ul li {
-	margin-right: 0.5em;
+        margin-right: 0.5em;
     }
 
     header nav ul li a {
-	padding: 0.25em 0.5em;
-    }   
+        padding: 0.25em 0.5em;
+    }
 
     div#main_container {
-	margin-top: 2em;
-	width: 90%;
+        margin-top: 2em;
+        width: 90%;
     }
 
     div#inner_container {
-	height: 14em;
+        height: 14em;
     }
 
     body.profile div#inner_container {
@@ -1407,77 +1453,126 @@ table#experience tr td:first-child:hover ~ td:last-child {
     }
 
     div#logo h1 {
-	font-size: 1.8em;
-	margin-top: 1.5em;
+        font-size: 1.8em;
+        margin-top: 1.5em;
     }
 
     div#logo h2 {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     div#top_left {
-	width: 70%
+        width: 70%
     }
 
     div#top_right {
-	width: 30%;
+        width: 30%;
     }
 
     div#top_right h3 {
-	font-size: 0.8em;
-	top: 0em;
-	right: 0em;
-	width: 5em;
+        font-size: 0.8em;
+        top: 0;
+        right: 0;
+        width: 5em;
     }
 
     div#top_right h3 a {
-	padding: 0.1em;
+        padding: 0.1em;
     }
 
     div#top_left h1 {
-	font-size: 1.1em;
+        font-size: 1.1em;
     }
 
     div#top_left h2 {
-	display: none;
+        display: none;
     }
 
     div#bottom_left {
-	width: 100%;
+        width: 100%;
     }
 
     div#bottom_left img {
-	display: none;
+        display: none;
     }
 
     div#bottom_right {
-	display: none;
+        display: none;
     }
 
     footer {
-	font-size: 0.8em;
-	letter-spacing: 1px;
-	bottom: 1em;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        bottom: 1em;
     }
 
     footer span {
-	display: none;
+        display: none;
     }
 
     table {
-	font-size: 0.9em;
+        font-size: 0.9em;
     }
 
     td.institution {
-	width: auto;
+        width: auto;
     }
 
     td.period {
-	min-width: auto;
+        min-width: auto;
     }
 
     td.position {
-	width: auto;
+        width: auto;
+    }
+
+    table#experience tr.facts:hover + tr.details {
+        width: 17em;
+    }
+
+    table#experience tr.facts:nth-child(2):hover + tr.details {
+        right: -2em;
+        top: 0;
+    }
+
+    table#experience tr.facts:nth-child(4):hover + tr.details {
+        right: -2em;
+        top: 2em;
+    }
+
+    table#experience tr.facts:nth-child(6):hover + tr.details {
+        right: -2em;
+        top: 3em;
+    }
+
+    table#experience tr.facts:nth-child(8):hover + tr.details {
+        right: -2em;
+        top: 4em;
+    }
+
+    table#experience tr.facts:nth-child(10):hover + tr.details {
+        right: -2em;
+        top: 8em;
+    }
+
+    table#experience tr.facts:nth-child(12):hover + tr.details {
+        right: -2em;
+        top: 7em;
+    }
+
+    table#experience tr.facts:nth-child(14):hover + tr.details {
+        right: -2em;
+        top: 13em;
+    }
+
+    table#experience tr.facts:nth-child(16):hover + tr.details {
+        right: -2em;
+        top: 19em;
+    }
+
+    table#experience tr.facts:nth-child(18):hover + tr.details {
+        right: -2em;
+        top: 23em;
     }
 }
 
@@ -1544,8 +1639,8 @@ table#experience tr td:first-child:hover ~ td:last-child {
 
     div#top_right h3 {
         font-size: 0.8em;
-        top: 0em;
-        right: 0em;
+        top: 0;
+        right: 0;
         width: 5em;
     }
 
