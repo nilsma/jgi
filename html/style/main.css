@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html {
-//overflow-y: hidden;
-}
-
 body {
     background-color: #060709;
     background-image: url("../media/background-blue.jpg");
@@ -451,7 +447,6 @@ table#experience tr.details {
 table#experience tr.facts:hover + tr.details {
     background-color: rgba(255, 255, 255, 1);
     display: block;
-    float: right;
     position: absolute;
     right: 0;
     top: 0;
@@ -806,17 +801,57 @@ table#experience tr td:first-child:hover ~ td:last-child {
         margin: 0.5em 1em 1em 1em;
     }
 
-    table#experience tr td:first-child:hover ~ td:last-child {
-        right: -5em;
-        width: 20em;
-    }
-
     td.institution {
         width: 10em;
     }
 
-    td.period {
-        min-width: 5em;
+    table#experience tr.facts:hover + tr.details {
+        width: 24em;
+    }
+
+    table#experience tr.facts:nth-child(2):hover + tr.details {
+        right: -7em;
+        top: 1em;
+    }
+
+    table#experience tr.facts:nth-child(4):hover + tr.details {
+        right: -7em;
+        top: 2em;
+    }
+
+    table#experience tr.facts:nth-child(6):hover + tr.details {
+        right: -7em;
+        top: 5em;
+    }
+
+    table#experience tr.facts:nth-child(8):hover + tr.details {
+        right: -7em;
+        top: 7em;
+    }
+
+    table#experience tr.facts:nth-child(10):hover + tr.details {
+        right: -7em;
+        top: 9em;
+    }
+
+    table#experience tr.facts:nth-child(12):hover + tr.details {
+        right: -7em;
+        top: 12em;
+    }
+
+    table#experience tr.facts:nth-child(14):hover + tr.details {
+        right: -7em;
+        top: 17em;
+    }
+
+    table#experience tr.facts:nth-child(16):hover + tr.details {
+        right: -7em;
+        top: 20em;
+    }
+
+    table#experience tr.facts:nth-child(18):hover + tr.details {
+        right: -7em;
+        top: 25em;
     }
 }
 
@@ -1213,6 +1248,8 @@ table#experience tr td:first-child:hover ~ td:last-child {
 }
 
 @media screen and (min-width: 640px) and (max-width: 719px) and (max-height: 360px) and (orientation: portrait) {
+
+
 
 }
 
