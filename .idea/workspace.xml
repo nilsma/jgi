@@ -5,9 +5,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/html/files/greve-isdahl_cv_2013.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cv.html" afterPath="$PROJECT_DIR$/html/cv.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/profile.html" afterPath="$PROJECT_DIR$/html/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="833" selection-end="1362" vertical-scroll-proportion="-0.9285714" vertical-offset="286" max-vertical-offset="2028">
+            <state line="10" column="35" selection-start="783" selection-end="783" vertical-scroll-proportion="0.047358833" vertical-offset="234" max-vertical-offset="1664">
               <folding />
             </state>
           </provider>
@@ -42,16 +40,16 @@
       <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="783" selection-end="1357" vertical-scroll-proportion="-0.9285714" vertical-offset="260" max-vertical-offset="2548">
+            <state line="10" column="35" selection-start="778" selection-end="778" vertical-scroll-proportion="-0.9285714" vertical-offset="234" max-vertical-offset="2184">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cv.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cv.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/cv.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.66302365" vertical-offset="260" max-vertical-offset="7124">
+            <state line="10" column="35" selection-start="781" selection-end="781" vertical-scroll-proportion="-9.285714" vertical-offset="0" max-vertical-offset="6760">
               <folding />
             </state>
           </provider>
@@ -87,9 +85,9 @@
         <option value="$PROJECT_DIR$/html/javascript/main.js" />
         <option value="$PROJECT_DIR$/html/main.js" />
         <option value="$PROJECT_DIR$/html/style/main.css" />
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/profile.html" />
         <option value="$PROJECT_DIR$/html/cv.html" />
+        <option value="$PROJECT_DIR$/html/profile.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -294,7 +292,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="7" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,23 +442,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
+    <entry file="file://$PROJECT_DIR$/html/cv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="833" selection-end="1362" vertical-scroll-proportion="-0.9285714" vertical-offset="286" max-vertical-offset="2028">
+        <state line="10" column="35" selection-start="781" selection-end="781" vertical-scroll-proportion="-9.285714" vertical-offset="0" max-vertical-offset="6760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="783" selection-end="1357" vertical-scroll-proportion="-0.9285714" vertical-offset="260" max-vertical-offset="2548">
+        <state line="10" column="35" selection-start="778" selection-end="778" vertical-scroll-proportion="-0.9285714" vertical-offset="234" max-vertical-offset="2184">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/cv.html">
+    <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.66302365" vertical-offset="260" max-vertical-offset="7124">
+        <state line="10" column="35" selection-start="783" selection-end="783" vertical-scroll-proportion="0.047358833" vertical-offset="234" max-vertical-offset="1664">
           <folding />
         </state>
       </provider>
