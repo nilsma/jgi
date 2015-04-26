@@ -359,11 +359,11 @@ td {
 
 td h3 {
     font-family: sans-serif;
-    margin: 0.5em 0.8em 0.2em 1.2em;
+    margin: 0 0 7px 0;
 }
 
 td p {
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 td.institution {
@@ -443,8 +443,28 @@ table#experience {
     position: relative;
 }
 
-table#experience tr.details {
+div.details {
     display: none;
+}
+
+table#experience td.toggleDetails {
+    position: relative;
+}
+
+table#experience td.position div {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    padding: 20px;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #444;
+}
+
+table#experience td.toggleDetails:hover {
+    cursor: help;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1439px) and (orientation: landscape) {
