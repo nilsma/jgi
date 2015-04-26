@@ -1332,6 +1332,11 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (max-width: 479px) and (orientation: portrait) {
+
+    div#bottom_container {
+        height: 55em;
+    }
+
     html {
         overflow-y: hidden;
     }
