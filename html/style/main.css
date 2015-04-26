@@ -267,6 +267,7 @@ div#bottom_container {
     height: 26em;
     -webkit-box-pack: justify;
     justify-content: space-around;
+    height: 100%;
 }
 
 div#bottom_left,
@@ -530,10 +531,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 800px) and (max-width: 959px) and (orientation: landscape) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
         margin: 0.5em auto 0;
         width: 45em;
@@ -576,10 +573,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 720px) and (max-width: 799px) and (orientation: landscape) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
         margin: 0.5em auto 0;
         width: 42em;
@@ -626,10 +619,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 640px) and (max-width: 719px) and (orientation: landscape) {
-    html {
-        overflow-y: hidden;
-    }
-
     header {
         font-size: 0.95em;
     }
@@ -746,10 +735,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (max-width: 639px) and (orientation: landscape) {
-    html {
-        overflow-y: hidden;
-    }
-
     header {
         font-size: 0.95em;
     }
@@ -874,10 +859,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1199px) and (orientation: portrait) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
 
         margin-top: 2em;
@@ -959,10 +940,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 768px) and (max-width: 799px) and (orientation: portrait) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
         margin-top: 2em;
         width: 90%;
@@ -1047,10 +1024,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 720px) and (max-width: 767px) and (orientation: portrait) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
         margin-top: 2em;
         width: 90%;
@@ -1135,10 +1108,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 600px) and (max-width: 719px) and (max-height: 1200px) and (orientation: portrait) {
-    html {
-        overflow-y: hidden;
-    }
-
     div#main_container {
         margin-top: 2em;
         width: 90%;
@@ -1219,10 +1188,6 @@ table#experience td.toggleDetails:hover {
 }
 
 @media screen and (min-width: 480px) and (max-width: 639px) and (orientation: portrait) {
-    html {
-        overflow-y: hidden;
-    }
-
     header {
         font-size: 0.9em;
     }
@@ -1335,10 +1300,6 @@ table#experience td.toggleDetails:hover {
 
     div#bottom_container {
         height: 55em;
-    }
-
-    html {
-//        overflow-y: hidden;
     }
 
     header {
