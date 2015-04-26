@@ -443,23 +443,15 @@ ul#reference li {
     margin: 1em 1.5em 1em 1.5em;
 }
 
-table#experience {
-    position: relative;
-}
-
 div.details {
     display: none;
-}
-
-table#experience td.toggleDetails {
-    position: relative;
 }
 
 table#experience td.position div {
     background-color: white;
     position: absolute;
-    top: 0px;
-    right: 30px;
+    top: -95px;
+    right: -20px;
     padding: 20px;
     max-width: 400px;
     border: 2px solid black;
