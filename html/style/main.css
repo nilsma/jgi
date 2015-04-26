@@ -447,7 +447,7 @@ div.details {
     display: none;
 }
 
-table#experience tr {
+table#experience tr td {
     position: relative;
 }
 
