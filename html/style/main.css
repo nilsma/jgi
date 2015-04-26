@@ -294,6 +294,7 @@ div#bottom_right {
     display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
     flex-flow: column;
     -webkit-box-pack: justify;
     text-align: center;
