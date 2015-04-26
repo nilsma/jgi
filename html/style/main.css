@@ -447,6 +447,10 @@ div.details {
     display: none;
 }
 
+table#experience tr {
+    position: relative;
+}
+
 table#experience td.position div {
     background-color: white;
     position: absolute;
