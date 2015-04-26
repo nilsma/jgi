@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f8e909-5cba-410a-8047-17e144dacb89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/main.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/html/files/greve-isdahl_cv_2013.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cv.html" afterPath="$PROJECT_DIR$/html/cv.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -68,7 +66,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="361" column="22" selection-start="6703" selection-end="6703" vertical-scroll-proportion="0.7660312" vertical-offset="8944" max-vertical-offset="38064">
+            <state line="403" column="13" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.6845754" vertical-offset="10083" max-vertical-offset="38064">
               <folding />
             </state>
           </provider>
@@ -520,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="22" selection-start="6703" selection-end="6703" vertical-scroll-proportion="0.7660312" vertical-offset="8944" max-vertical-offset="38064">
+        <state line="403" column="13" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.6845754" vertical-offset="10083" max-vertical-offset="38064">
           <folding />
         </state>
       </provider>
