@@ -4,7 +4,6 @@
     <list default="true" id="b9f8e909-5cba-410a-8047-17e144dacb89" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/html/files/greve-isdahl_cv_2013.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style/main.css" afterPath="$PROJECT_DIR$/html/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1336" column="18" selection-start="22063" selection-end="22063" vertical-scroll-proportion="0.46793762" vertical-offset="34466" max-vertical-offset="38194">
+            <state line="1337" column="30" selection-start="22097" selection-end="22097" vertical-scroll-proportion="0.5129983" vertical-offset="34466" max-vertical-offset="38220">
               <folding />
             </state>
           </provider>
@@ -518,7 +517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1336" column="18" selection-start="22063" selection-end="22063" vertical-scroll-proportion="0.46793762" vertical-offset="34466" max-vertical-offset="38194">
+        <state line="1337" column="30" selection-start="22097" selection-end="22097" vertical-scroll-proportion="0.5129983" vertical-offset="34466" max-vertical-offset="38220">
           <folding />
         </state>
       </provider>
