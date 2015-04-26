@@ -341,6 +341,10 @@ td {
     text-align: left;
 }
 
+th.center-header {
+    text-align: center;
+}
+
 table {
     display: table;
     border-collapse: collapse;
